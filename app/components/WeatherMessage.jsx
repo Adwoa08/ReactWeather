@@ -17,8 +17,8 @@ var React = require('react');
 var WeatherMessage = ({temp, location, description}) => {
   return(
     <div>
-      <h3>It's {temp} in {location}.</h3>
-      <p>Meaning: {description}</p>
+      <h3 className="text-center">It's {temp} in {location}.</h3>
+      <p className="text-center">Meaning: {description}</p>
     </div>
   )
 }
