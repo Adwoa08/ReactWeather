@@ -13,7 +13,10 @@ var React = require('react');
 
 var About = (props) => {
   return(
-    <h3>About component</h3>
+    <div>
+      <h2>About</h2>
+      <p>Welcome to the about page!</p>
+    </div>
   )
 };
 
