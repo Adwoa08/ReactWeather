@@ -12,6 +12,9 @@ require('style!css!foundation-sites/dist/foundation.min.css');
 
 $(document).foundation();
 
+//App css
+require('style!css!sass!applicationStyles')
+
 
 
 // var Route = require('react-router').Route; //This line is the same as what we have above it.
